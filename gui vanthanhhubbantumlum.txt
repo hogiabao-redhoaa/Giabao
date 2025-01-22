@@ -23,7 +23,7 @@ end;
 
 local SettingToggle = {}
 
-local Name = "BTConfig.JSON"
+local Name = "Gia Bảo Hub"
 
 pcall(function()
     if not pcall(function() readfile(Name) end) then
@@ -100,7 +100,7 @@ function Library:CreateWindow(hubname)
     Body_Corner.Name = "Body_Corner"
     Body_Corner.Parent = Body
 
-    Title_Hub.Name = "Title_Hub"
+    Title_Hub.Name = "Gia Bảo Hub"
     Title_Hub.Parent = Body
     Title_Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Title_Hub.BackgroundTransparency = 1.000
@@ -154,9 +154,9 @@ function Library:CreateWindow(hubname)
     YT_Logo.BorderSizePixel = 0
     YT_Logo.Position = UDim2.new(0, 5, 0, 1)
     YT_Logo.Size = UDim2.new(0, 23, 0, 23)
-    YT_Logo.Image = "http://www.roblox.com/asset/?id=81127365331139"
+    YT_Logo.Image = "http://www.roblox.com/asset/?id=100915453505497"
 
-    YT_Title.Name = "YT_Title"
+    YT_Title.Name = "Gia Bảo Hub"
     YT_Title.Parent = YTB
     YT_Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     YT_Title.BackgroundTransparency = 1.000
